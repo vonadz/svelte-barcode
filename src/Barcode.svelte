@@ -40,7 +40,7 @@
 </script>
 
 {#if elementTag === 'img'}
-  <img bind:this={barcode} alt="" />
+	<img bind:this={barcode} alt="{options.altText || value}" />
 {:else if elementTag === 'canvas'}
   <canvas bind:this={barcode}></canvas>
 {:else}

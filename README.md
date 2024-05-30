@@ -131,6 +131,13 @@ yarn add svelte-barcode --save
       <td>Overide the text that is diplayed</td>
     </tr>
     <tr>
+      <td>altText</td>
+      <td>string?</td>
+      <td>value prop</td>
+      <td>❌</td>
+      <td>Overide the alt text for an img barcode.</td>
+    </tr>
+    <tr>
       <td>fontOptions</td>
       <td>string?</td>
       <td><code>''</code></td>
